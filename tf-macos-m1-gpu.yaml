@@ -1,0 +1,16 @@
+name: tf-macos-m1-gpu
+channels:
+  - apple
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - tensorflow-deps
+  - ipykernel
+
+  - pip:
+      - tensorflow-macos
+      - tensorflow-metal
+      - keras-cv
+      - tensorflow-datasets
+      - matplotlib
